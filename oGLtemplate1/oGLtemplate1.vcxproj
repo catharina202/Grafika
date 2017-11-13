@@ -11,10 +11,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5F392B4B-F504-462A-AF1B-609C2BA3C881}</ProjectGuid>
+    <ProjectGuid>{EE0E57D0-62BE-415E-89A6-F501C4134D52}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Okno</RootNamespace>
-    <ProjectName>ggg</ProjectName>
+    <RootNamespace>oGLtemplate1</RootNamespace>
+    <ProjectName>Okno</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -35,9 +35,11 @@
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="wspolne.props" Condition="exists('wspolne.props')" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="wspolne.props" Condition="exists('wspolne.props')" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -79,10 +81,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="okno.cpp" />
+    <ClInclude Include="Okno.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="okno.h" />
+    <ClCompile Include="Okno.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wspolne.props" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

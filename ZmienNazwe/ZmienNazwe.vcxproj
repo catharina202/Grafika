@@ -80,10 +80,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="ZmienNazwe.h" />
+    <ClInclude Include="Okno.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ZmienNazwe.cpp" />
+    <ClCompile Include="Okno.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wspolne.props" />

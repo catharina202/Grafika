@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZmienNazwe", "ZmienNazwe\ZmienNazwe.vcxproj", "{3758F5EA-DD15-4ED2-8D01-D2ACA4333DDE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Okno", "Okno\Okno.vcxproj", "{5F392B4B-F504-462A-AF1B-609C2BA3C881}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Okno", "oGLtemplate1\oGLtemplate1.vcxproj", "{EE0E57D0-62BE-415E-89A6-F501C4134D52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{3758F5EA-DD15-4ED2-8D01-D2ACA4333DDE}.Debug|Win32.Build.0 = Debug|Win32
 		{3758F5EA-DD15-4ED2-8D01-D2ACA4333DDE}.Release|Win32.ActiveCfg = Release|Win32
 		{3758F5EA-DD15-4ED2-8D01-D2ACA4333DDE}.Release|Win32.Build.0 = Release|Win32
-		{5F392B4B-F504-462A-AF1B-609C2BA3C881}.Debug|Win32.ActiveCfg = Debug|Win32
-		{5F392B4B-F504-462A-AF1B-609C2BA3C881}.Debug|Win32.Build.0 = Debug|Win32
-		{5F392B4B-F504-462A-AF1B-609C2BA3C881}.Release|Win32.ActiveCfg = Release|Win32
-		{5F392B4B-F504-462A-AF1B-609C2BA3C881}.Release|Win32.Build.0 = Release|Win32
+		{EE0E57D0-62BE-415E-89A6-F501C4134D52}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EE0E57D0-62BE-415E-89A6-F501C4134D52}.Debug|Win32.Build.0 = Debug|Win32
+		{EE0E57D0-62BE-415E-89A6-F501C4134D52}.Release|Win32.ActiveCfg = Release|Win32
+		{EE0E57D0-62BE-415E-89A6-F501C4134D52}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
