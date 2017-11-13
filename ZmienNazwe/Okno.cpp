@@ -27,7 +27,7 @@ void Okno::stowrzenieOkna(int argc, char** argv){
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
 	glutInitWindowSize(1024, 786);
 	glutInitWindowPosition(100, 100);
-	glutCreateWindow("okno");
+	glutCreateWindow("ok no");
 
 }
 
