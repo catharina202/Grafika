@@ -1,0 +1,18 @@
+﻿Build started 11.12.2017 14:42:15.
+     1>Project "C:\Users\STUDENT\Desktop\graifka\L2 Ka\okno\okno.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Trojkat.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt trojkat.cpp
+         trojkat.cpp
+     1>c:\users\student\desktop\graifka\l2 ka\okno\trojkat.cpp(89): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\student\desktop\graifka\l2 ka\okno\trojkat.cpp(89): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\student\desktop\graifka\l2 ka\okno\trojkat.cpp(90): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\student\desktop\graifka\l2 ka\okno\trojkat.cpp(90): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\student\desktop\graifka\l2 ka\okno\trojkat.cpp(90): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\student\desktop\graifka\l2 ka\okno\trojkat.cpp(101): error C2065: 'sumCW' : undeclared identifier
+     1>Done Building Project "C:\Users\STUDENT\Desktop\graifka\L2 Ka\okno\okno.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.59
