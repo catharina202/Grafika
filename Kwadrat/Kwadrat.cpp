@@ -7,14 +7,14 @@ int Kwadrat::szerokoscOkna;
 int main(int argc, char** argv)
 {
 
-	Kwadrat punkt(786, 1024, 100, 100);
+	Kwadrat punkt(786, 786, 100, 100);
 	punkt.stworzenieOkna(argc, argv);
 	punkt.inicjalizacjaGlew();
 	punkt.stworzenieVAO();
 	punkt.stworzenieVBO();
 	glutDisplayFunc(punkt.wyswietl);
 
-	glClearColor(0.0f, 0.5f, 0.0f, 0.0f);
+	glClearColor(0.0f, 0.7f, 0.0f, 0.0f);
 
 	glutMainLoop();
 
